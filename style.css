@@ -23,7 +23,7 @@ img {
 
 .card {
   display: grid;
-  border: 1px solid #999;
+  border: 1px solid #999999;
   border-radius: 12px;
 }
 
