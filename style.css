@@ -1,0 +1,111 @@
+body {
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat, repeat;
+  width: auto;
+  background-size: 2000px;
+  font-family: Ubuntu, sans-serif;
+}
+h1 {
+  text-align: center;
+  /*font-family: Millanova, sans-serif;**/
+  color: #ffffff;
+  margin-top: 20px;
+  font-family: Futura Md BT, sans-serif;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-align: center;
+  /*font-family: Millanova, sans-serif;**/
+  color: #b4c6a6;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-family: Ready, sans-serif;
+  font-size: 38px;
+  color: #e78f0c;
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+  font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  grid-gap: 20px;
+  max-width: 800px;
+  margin: 1em auto;
+}
+
+.card {
+  display: grid;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 12px;
+  box-shadow: 0px 0px 10px hsla(14, 95%, 74%, 0.788);
+}
+
+.card img {
+  object-fit: cover;
+  width: 100%;
+  height: 213px;
+  border-radius: 12px 12px 0px 0px;
+}
+
+.card h2 {
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.card .content {
+  padding: 0.5rem;
+  background: rgba(250, 235, 215, 0.904);
+  border-radius: 0 0 12px 12px;
+  font-size: 16px;
+  text-align: justify;
+  word-break: break-all;
+}
+.card .button {
+  background-color: #f1b04e;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 46px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.card .button:hover {
+  background-color: coral;
+  border: none;
+  color: floralwhite;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 46px;
+  cursor: pointer;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px hsla(0, 0%, 39%, 0.76);
+  font-size: 16px;
+}
+
+span {
+  content: "\20AC";
+}
+
+.card footer {
+  background-color: #333;
+  color: #fff;
+  padding: 0.5rem;
+}
